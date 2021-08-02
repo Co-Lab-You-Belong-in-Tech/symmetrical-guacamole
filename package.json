@@ -1,23 +1,27 @@
 {
-  "name": "symmetrical-guacamole",
-  "version": "1.0.0",
-  "description": "co.Lab project involving the comparison of prices for food delivery web applications. ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Co-Lab-You-Belong-in-Tech/symmetrical-guacamole.git"
-  },
-  "keywords": [
-    "node",
-    "puppeteer"
-  ],
-  "author": "Anthony Lopez & Thomas Stussi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Co-Lab-You-Belong-in-Tech/symmetrical-guacamole/issues"
-  },
-  "homepage": "https://github.com/Co-Lab-You-Belong-in-Tech/symmetrical-guacamole#readme"
+    "name": "symmetrical-guacamole",
+    "version": "1.0.0",
+    "description": "co.Lab project involving the comparison of prices for food delivery web applications. ",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Co-Lab-You-Belong-in-Tech/symmetrical-guacamole.git"
+    },
+    "keywords": [
+        "node",
+        "puppeteer"
+    ],
+    "author": "Anthony Lopez & Thomas Stussi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Co-Lab-You-Belong-in-Tech/symmetrical-guacamole/issues"
+    },
+    "homepage": "https://github.com/Co-Lab-You-Belong-in-Tech/symmetrical-guacamole#readme",
+    "dependencies": {
+        "nodemon": "^2.0.12",
+        "puppeteer": "^10.1.0"
+    }
 }
