@@ -24,12 +24,16 @@ uberEatsInformationScraper = (address) => {
         await submit.click();
         await page.waitForTimeout(4000);
 
+        //grab data to be parsed
         await page.evaluate(() => {
-
+            let x = document.querySelectorAll(".af", ".jb", ".ag");
+            x.forEach(card => {
+                console.log(card.innerHTML);
+            });
         })
 
         //close puppeteer
-        await browser.close()
+        //await browser.close()
 
     })();
 };
